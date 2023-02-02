@@ -3,7 +3,7 @@ let mega = {
     b:6,
     c:10
 }
-console.log(mega.a+mega.b+mega.c);
+console.log(mega.a + mega.b + mega.c);
 
 
 let data = 10>9;
