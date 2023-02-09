@@ -21,9 +21,9 @@ let user = prompt('What is your name?');
 function getName() {
     if (user === 'Alinur')
     {
-        alert("Привет, " + user);
+        alert("Hello, " + user);
     }else {
-        alert("Привет, гость");
+        alert("Hello, visitor");
     }
 }
 getName();
