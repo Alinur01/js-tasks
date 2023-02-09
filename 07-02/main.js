@@ -17,11 +17,11 @@ name (например, «Василий») и выводить строку (в
 
 
 
-let name = prompt('What is your name?');
+let user = prompt('What is your name?');
 function getName() {
-    if (name === 'Stalin')
+    if (user === 'Alinur')
     {
-        alert("Привет, " + name);
+        alert("Привет, " + user);
     }else {
         alert("Привет, гость");
     }
