@@ -32,3 +32,4 @@ for(let i = 0; i <array.length; i++) {
         even_nums.push(array[i]);
     }
 }
+console.log(even_nums);
