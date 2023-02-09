@@ -2,11 +2,11 @@
 1) Нужно создать функцию, которая будет выводить куб числа на страничку.
     Число должно передаваться параметром.
 */
-// let just = function (num) {
-//     return num * num;
-// }
-//
-// console.log(just(3));
+let just = function (num) {
+    return num * num;
+}
+
+console.log(just(3));
 
 
 /*
