@@ -1,0 +1,1 @@
+const   mega = (message_1) =>{    alert(message_1);}setTimeout(mega, 4000, 'Hello after 4 seconds');setTimeout(mega, 8000, 'Hello after 8 seconds');
