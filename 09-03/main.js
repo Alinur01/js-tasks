@@ -1,0 +1,1 @@
+function joinStr() {    let result = "";    for (let i = 0; i < arguments.length; i++) {        result += arguments[i];    }    return result;}let str1 = "I ";let str2 = "love ";let str3 = "you, baby";let result = joinStr(str1, str2, str3);alert(result);
