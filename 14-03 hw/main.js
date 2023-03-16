@@ -1,0 +1,1 @@
+const accordionHeaders = document.querySelectorAll('.accordion-header');accordionHeaders.forEach(header => {    header.addEventListener('click', () => {        const accordionItem = header.parentElement;        const accordionBody = header.nextElementSibling;        accordionItem.classList.toggle('active');        accordionBody.classList.toggle('show');    });});
